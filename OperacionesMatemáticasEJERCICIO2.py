@@ -17,11 +17,13 @@ núm_2 = int(input("Ingresa otro número:"))  # si quieres poner decimales puede
 suma = núm_1 + núm_2 #SUMA
 resta = núm_1 - núm_2 #RESTA
 mult = núm_1 * núm_2 #MULT
-
-
+potencia = núm_1 ** núm_2 #Potencia
+cuadrado = núm_1 ** 2
 
 
 # Salidas (IMPRIMIR O MOSTRAR EN PANTALLA)
 print("LA SUMA ES = " ,suma) # CONCATENACIÓN (unión) CON LA COMA (,)
 print(' LA RESTA ES = ' + str(resta )) # CONCATENACIÓN (unión) con (+) POR CASTEO(Convertir un tipo de dato a otro tipo de dato)
 print(f" LA MULTIPLICACIÓN ES = {mult}") #INTERPOLACIÓN DE TEXTO
+print("LA POTENCIA DE n1 ELEVADO A n2 =",potencia)
+print("EL CUADRADO DE n1 = ",cuadrado)
