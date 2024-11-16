@@ -12,3 +12,9 @@ promedio = (cal_1 + cal_2 + cal_3)/3
 # RESULTADO
 
 print("EL PROMEDIO DE LAS CALIFICACIONES ES:" ,promedio)
+
+#VERIFICAR SI EL PROMEDIO ES APROBATORIO O REPROBATORIO 
+if(promedio > 6):
+     print("APROBO EL CURSO FELICIDADES ")
+elif(promedio <= 6):
+     print("REPROBASTE SIGUE PARTICIPANDO")
