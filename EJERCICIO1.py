@@ -14,7 +14,12 @@ promedio = (cal_1 + cal_2 + cal_3)/3
 print("EL PROMEDIO DE LAS CALIFICACIONES ES:" ,promedio)
 
 #VERIFICAR SI EL PROMEDIO ES APROBATORIO O REPROBATORIO 
-if(promedio > 6):
+if(promedio > 6 and promedio <= 10):
      print("APROBO EL CURSO FELICIDADES ")
-elif(promedio <= 6):
+elif(promedio == 6):
+     print("UY PANSASTE")     
+elif(promedio < 6 and promedio >= 0):
      print("REPROBASTE SIGUE PARTICIPANDO")
+elif(promedio < 0 or promedio > 10):
+     print("ESO NI EXISTE")    
+    
